@@ -44,6 +44,7 @@ background-color: var(--bg-color);
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+        
 }
 .header-container {
     display: flex;
@@ -107,8 +108,8 @@ img {
     margin-left: auto;
     margin-right: auto; */
 
-    outline: 2px solid #2E2F42;
-        outline-offset: -2px;
+    /* outline: 2px solid #2E2F42;
+        outline-offset: -2px; */
 }
 
 /* Tablets screens */
@@ -171,8 +172,16 @@ button {
 .nav {
 display: flex;
 align-items: center;
-
 }
+
+@media only screen and (max-width: 768px) {
+.nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+
 
 .linl.logo {
     
@@ -1896,6 +1905,7 @@ color: var(--ocean, #404BBF);
 
 .adress-list-item-mobile {
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
 
