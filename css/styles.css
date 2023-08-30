@@ -797,6 +797,13 @@ padding: 96px 0;
 
 }
 
+@media screen and (min-width:768px) {
+    .container-desc-team {
+        max-width: 608px;
+    }
+
+}
+
 @media only screen and (min-width: 768px) and (max-width:1158px) {
     .container-desc-team {
     /* display: flex;
